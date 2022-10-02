@@ -982,6 +982,11 @@ h13 a:active{
 /* Global */
 
 
+#egg-container{
+    display: none;
+}
+
+
 .about-container{
     position: relative;
     top: 50px;
