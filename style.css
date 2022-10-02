@@ -984,6 +984,7 @@ h13 a:active{
 
 #egg-container{
     display: none;
+    visibility: hidden;
 }
 
 
