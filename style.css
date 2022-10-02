@@ -982,10 +982,12 @@ h13 a:active{
 /* Global */
 
 
-#egg-container{
+#egg-container, #egg{
     display: none;
     visibility: hidden;
 }
+
+
 
 
 .about-container{
