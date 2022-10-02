@@ -1,0 +1,141 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/bdp5rbd.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
+    <title>Sam Pittman</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+   
+    <body>
+
+        <!-- Logo -->
+        
+        <div id="header">
+          <a href="index.html">
+            <img src="assets/Logo-01.svg" class="logo-project">
+          </a>
+        </div>
+        
+        <!-- Logo -->
+
+        <!-- Nav -->
+            <div class="nav-banner">
+                <ul>
+                    <li><h2><a href="index.html">work</a></h2></li>
+                    <li><h2><a href="about.html">about</a></h2></li>
+                </ul>
+            </div>
+        <!-- Nav -->
+
+        <!-- Container -->
+
+        <div class="project-container">
+          <div class="project-module">
+
+            <!-- Video Autoplay -->
+            <video class="fullscreen-autoplay-video" playsinline autoplay loop muted>
+              <source src="assets/project/Sam-Pittman-Petit-Pli.mp4" type="video/mp4" />
+              <source src="assets/project/Sam-Pittman-Petit-Pli.webm" type="video/webm" />
+            </video>
+
+             <!-- Project info -->
+             <div class="project-info">
+              <div class="info-col">
+                <h3>In their first two years on earth, children grow seven sizes. Thats a lot of clothes. Petit Pli reduces waste, by colliding fashion with aerospace engineering, to create innovative garments that grow with your child.</h3>
+              </div>
+              <div class="info-col">
+                <h4>This inspired an identity influenced by the expandable technology.
+                  Along with a fun e-commerce packaging solution, which extends the
+                  life of the FSC sourced cardboard; transforming a functional box
+                  into an object for play. A solution which reduced the packaging cost
+                  per unit by 81.5%. </h4>
+                  <h4>Since launch, the brand has gained recognition from
+                  Sir Richard Branson whilst introducing new lines in
+                  infant-wear, adult-wear and protective face masks.</h4>
+              </div>
+            </div>
+
+            <!-- Single Image -->
+            <div class="project-image">
+              <img src="assets/project/1920x1080.png">
+            </div>   
+            <div class="project-image-mobile">
+            </div>
+
+            <!-- Single Image Portrait -->
+            <div class="project-image-portrait">
+              <img src="assets/project/1080x1920.png">
+            </div>
+            <div class="project-image-portrait-mobile">
+            </div>
+                
+            <!-- Single Image Landscape Inset -->
+            <div class="project-image-landscape-inset">
+              <img src="assets/project/1920x1080.png">
+            </div>
+            <div class="project-image-landscape-inset-mobile">
+            </div>
+
+           
+
+            <!-- Multiple Image Grid -->
+            <div class="multiple-image-grid">
+              <img src="assets/project/1920x1080.png">
+              <img src="assets/project/1920x1080.png">
+              <img src="assets/project/1920x1080.png">
+            </div>     
+            <div class="multiple-image-grid-mobile"> 
+            </div>
+            
+            <!-- Multiple Image Grid -->
+            <div class="multiple-image-grid">
+              <img src="assets/project/1920x1080.png">
+              <img src="assets/project/1920x1080.png">
+    
+            </div>     
+            <div class="multiple-image-grid-mobile"> 
+            </div> 
+
+            <!-- iPhone Images -->
+            <div class="social-image-grid">
+              <img src="assets/project/petit-pli/Sam-Pittman-Petit-Pli-Insta-01.PNG">
+              <img src="assets/project/petit-pli/Sam-Pittman-Petit-Pli-Insta-02.PNG">
+              <img src="assets/project/1080x1920.png">
+            </div>
+            <div class="social-image-grid-mobile">
+            </div>
+
+            
+
+            <!-- Video Autoplay -->
+            <div class="video-module">
+              <video id="video" playsinline controls>
+                <source src="{{ asset.url() }}" type="video/webm" />
+                <source src="{{ asset.url() }}" type="video/mp4" />
+              </video>
+            </div>
+
+          </div>
+        </div>
+            
+            
+
+            <!-- Footer -->
+            <div class="footer-col">
+                <h2>Get in touch <a href="mailto:sam@sampittman.co.uk">sam@sampittman.co.uk</a></h2>
+                <h2><a href="https://www.linkedin.com/in/sam-pittman-945ab5a6/" target="new">Linkedin</a></h2>
+                <h2><a href="https://www.instagram.com/sam_pittman_/" target="new">Instagram</a></h2>
+              </div>
+              
+    </body>
+    
+    <!-- Video -->
+    <script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
+    
+    <script>
+        const player = new Plyr('#video', {
+            controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume'],
+        });
+    </script>
