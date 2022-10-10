@@ -983,11 +983,7 @@ h13 a:active{
 
 
 #egg-container{
-    position: fixed;
-    right: 15px;
-    bottom: 15px;
-    width: 50px;
-    z-index: 300;
+    display: none;
 }
 
 
