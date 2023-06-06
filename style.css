@@ -347,10 +347,8 @@ a:any-link {
 
 .homepage-project-grid{
     position: relative;
-    width: 92vw;
+    width: 50vw;
     margin: auto;
-    column-count: 2;
-    column-gap: 2vw;
     max-width: 1700px;
 }
 
